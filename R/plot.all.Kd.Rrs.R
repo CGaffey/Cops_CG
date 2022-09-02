@@ -7,7 +7,7 @@
 #'
 #'
 #' @param functionName is an optional argument specifying the
-#' name of the plotting function to be used. new.plot.Rrs.Kd.for.station is called
+#' name of the plotting function to be used. plot.Rrs.Kd.for.station is called
 #' by default
 #'
 #' @author Charles-André Roux
