@@ -111,7 +111,7 @@ compute.Ksurf.linear <- function (Depth, aop,
     }
 
     ##### remove fit that did not pass the Kolmogorov-Smirnov test
-    #### The threshold is set to 0.1 but may need to be adjusted #####CBG - I EDITED THIS to 0.001
+    #### The threshold is set to 0.1 but may need to be adjusted #####CBG - I EDITED THIS to 0.001#
     ix.valid <- which(ks.p.value > 0.001)
     if (length(ix.valid) > 1) {
       ##### Get the highest r2
